@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Main Screen/Main Screen.unity
+    guid: c34b88efe50524810a5ee40b7520a9c6
+  - enabled: 1
+    path: Assets/Main Screen/InstructionLevelOne.unity
+    guid: a37527070653f4b02b1f4036e159aab7
+  - enabled: 1
+    path: Assets/Level2Stuff/Level 2.unity
+    guid: d07663caa82cc41ac8c503b150c09867
+  - enabled: 1
+    path: Assets/Main Screen/InstructionLevelTwo.unity
+    guid: 9b13b5a2365204bfd9383770742bb559
+  - enabled: 1
+    path: Assets/2DRACING/LevelOne.unity
+    guid: d96b93a69c67049be8e0e16c8bcd8dc5
+  - enabled: 1
+    path: Assets/Main Screen/InstructionLevelThree.unity
+    guid: 6de4c4cf6a8c8471b9669b55ad2df500
+  - enabled: 1
+    path: Assets/PLATFORMER/Scene3.unity
+    guid: 4f8f80b6e904445b4b03a95f16dffef6
+  - enabled: 1
+    path: Assets/Main Screen/InstructionLevelFinal.unity
+    guid: fd23aaf9351ca419e903607aa9385110
+  - enabled: 1
+    path: Assets/Final boss/FinalBoss.unity
+    guid: a9e3571d4a89f424b9de9fd0a19fc2ab
+  - enabled: 1
+    path: Assets/Main Screen/EndScreen.unity
+    guid: 0b8c8ad937e264957b7d24deefd4df15
