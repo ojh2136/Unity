@@ -10,7 +10,7 @@ public class jumpBehavior : StateMachineBehaviour {
 
     private Transform playerPos;
     public float speed;
-
+    // moves to player
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
         playerPos = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();

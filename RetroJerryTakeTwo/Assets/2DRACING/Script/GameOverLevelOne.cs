@@ -7,7 +7,7 @@ public class GameOverLevelOne : MonoBehaviour {
     bool gameHasEnded = false;
     public float delay = 2f;
 
-
+    // end game lost
     public void EndGame()
     {
         if (gameHasEnded == false)
@@ -21,6 +21,7 @@ public class GameOverLevelOne : MonoBehaviour {
         }
 
     }
+    //restart scene
     void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
@@ -29,6 +30,7 @@ public class GameOverLevelOne : MonoBehaviour {
 
 
     }
+    // making screen visible
     public void gameended()
     {
         gameover.SetActive(true);

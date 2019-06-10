@@ -23,7 +23,7 @@ public class Timer1 : MonoBehaviour
             FindObjectOfType<GameOverLevelOne>().EndGame();
         }
 	}
-
+    //countdown
 	IEnumerator LoseTime()
 	{
 		while (true)

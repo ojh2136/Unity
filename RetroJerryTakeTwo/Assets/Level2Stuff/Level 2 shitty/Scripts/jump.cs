@@ -15,12 +15,12 @@ public class jump : MonoBehaviour {
 		rb = GetComponent<Rigidbody2D>();
 		up = new Vector3(0.0f, 2.0f, 0.0f);
 	}
-
+    // Is ground
 	void OnCollisionEnter2D()
 	{
 		isGrounded = true;
 	}
-
+    // jump mechanicss
     void Update()
     {
 
@@ -31,7 +31,7 @@ public class jump : MonoBehaviour {
         }
         healthbar.value = health;
     }
-
+    // game over
     private void FixedUpdate()
     {
         if (health <= 0 )

@@ -23,7 +23,7 @@ public class carController : MonoBehaviour {
 		transform.position = position;
 
 	}
-
+    // collision detects for enemy can key
 	void OnCollisionEnter2D(Collision2D col)
 	{
 		if (col.gameObject.tag == "Enemy") 

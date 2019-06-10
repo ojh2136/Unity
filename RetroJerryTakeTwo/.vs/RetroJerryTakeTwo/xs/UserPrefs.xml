@@ -1,17 +1,16 @@
 ﻿<Properties StartupConfiguration="{0301747B-B230-F2C6-0115-F6AE2830DE3B}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/2DRACING/Script/carController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/jumpBehavior.cs">
     <Files>
-      <File FileName="Assets/Final boss/boss.cs" Line="41" Column="44" />
-      <File FileName="Assets/BONUSRACING/Scripts/Timer1.cs" Line="19" Column="38" />
-      <File FileName="Assets/Level2Stuff/Level 2 shitty/Scripts/jump.cs" Line="30" Column="32" />
-      <File FileName="Assets/GameOver.cs" Line="57" Column="36" />
-      <File FileName="Assets/2DRACING/Script/GameOverLevelOne.cs" Line="23" Column="6" />
-      <File FileName="Assets/PLATFORMER/Script/jerryPlat.cs" Line="70" Column="37" />
+      <File FileName="Assets/BONUSRACING/Scripts/Timer1.cs" Line="26" Column="16" />
+      <File FileName="Assets/Level2Stuff/Level 2 shitty/Scripts/jump.cs" Line="23" Column="23" />
+      <File FileName="Assets/GameOver.cs" Line="55" Column="32" />
+      <File FileName="Assets/2DRACING/Script/GameOverLevelOne.cs" Line="33" Column="29" />
+      <File FileName="Assets/PLATFORMER/Script/jerryPlat.cs" Line="82" Column="20" />
       <File FileName="Assets/idleBehavior.cs" Line="32" Column="2" />
-      <File FileName="Assets/jumpBehavior.cs" Line="27" Column="10" />
-      <File FileName="Assets/Final boss/Projectile.cs" Line="1" Column="1" />
-      <File FileName="Assets/Final boss/PlayerMovementFinalLevel.cs" Line="72" Column="34" />
-      <File FileName="Assets/2DRACING/Script/carController.cs" Line="1" Column="1" />
+      <File FileName="Assets/jumpBehavior.cs" Line="13" Column="23" />
+      <File FileName="Assets/Final boss/Projectile.cs" Line="14" Column="32" />
+      <File FileName="Assets/Final boss/PlayerMovementFinalLevel.cs" Line="76" Column="12" />
+      <File FileName="Assets/2DRACING/Script/carController.cs" Line="20" Column="18" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,9 +18,7 @@
           <Node name="RetroJerryTakeTwo" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="2DRACING" expanded="True">
-                <Node name="Script" expanded="True">
-                  <Node name="carController.cs" selected="True" />
-                </Node>
+                <Node name="Script" expanded="True" />
               </Node>
               <Node name="BONUSRACING" expanded="True">
                 <Node name="Scripts" expanded="True" />
@@ -36,13 +33,14 @@
               <Node name="PLATFORMER" expanded="True">
                 <Node name="Script" expanded="True" />
               </Node>
+              <Node name="jumpBehavior.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.RetroJerryTakeTwo PreferredExecutionTarget="b0d1d079-8bf2-40eb-9525-4a65c1b0e669" />
+  <MonoDevelop.Ide.ItemProperties.RetroJerryTakeTwo PreferredExecutionTarget="25103fba-152e-40cb-b8fd-877061f6716f" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

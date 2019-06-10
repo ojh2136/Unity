@@ -35,6 +35,7 @@ public class jerryPlat : MonoBehaviour {
 	{
 		rb = GetComponent<Rigidbody2D>();
 	}
+    //movement mechanic
 	void FixedUpdate()
 	{
 		isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGrounded);
@@ -57,7 +58,7 @@ public class jerryPlat : MonoBehaviour {
 			FindObjectOfType<GameOver>().EndGame();
 		}
 	}
-
+    // jump and death mechanic
 	void Update()
 	{
 		if (moveType == type.platformer && Input.GetAxisRaw ("Vertical") > 0 && onGround) 
@@ -70,7 +71,7 @@ public class jerryPlat : MonoBehaviour {
 			FindObjectOfType<GameOverLevelOne>().EndGame();
 		}
 	}
-
+    // fliping jerry
 	void Flip()
 	{
 		facingRight = !facingRight;
@@ -78,7 +79,7 @@ public class jerryPlat : MonoBehaviour {
 		Scaler.x *= -1;
 		transform.localScale = Scaler;
 	}
-
+    // ground check
 	void OnCollisionEnter2D (Collision2D obj)
 	{
 		if (obj.gameObject.tag == "ground") 

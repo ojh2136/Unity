@@ -11,7 +11,7 @@ public class Projectile : MonoBehaviour {
     {
         rb.velocity = transform.right * speed; 
     }
-
+    // range mechanic for jerry
     void OnTriggerEnter2D (Collider2D other)
     {
         if ( other.GetComponent<boss>() != null)

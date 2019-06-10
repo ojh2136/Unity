@@ -56,11 +56,12 @@ public class PlayerMovementFinalLevel : MonoBehaviour {
 
      void Update()
     {
+        //ground check
         if (isGrounded == true)
         {
             jump = extraJump;
         }
-
+        // increase jump speed as time goes up
         if (Input.GetKeyDown(KeyCode.UpArrow) && jump > 0)
         {
             rb.velocity = Vector2.up * jumpforce;
@@ -72,7 +73,7 @@ public class PlayerMovementFinalLevel : MonoBehaviour {
         healthbar.value = health;
 
     }
-
+    // flip
     void Flip()
     {
         facingRight = !facingRight;

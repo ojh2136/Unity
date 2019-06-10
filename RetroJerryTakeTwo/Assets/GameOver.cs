@@ -11,6 +11,7 @@ public class GameOver : MonoBehaviour {
     {
        
     }
+    // end game lost
     public void EndGame ()
     {
         if (gameHasEnded == false)
@@ -22,7 +23,7 @@ public class GameOver : MonoBehaviour {
         }
 
     }
-
+    // end game win
     public void EndGameWin()
     {
         if (gameHasEnded == false)
@@ -33,7 +34,7 @@ public class GameOver : MonoBehaviour {
             Invoke("restartOne", delay);
         }
     }
-
+    // restarting scene
     void Restart ()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
@@ -41,7 +42,7 @@ public class GameOver : MonoBehaviour {
 
        
     }
-
+    //making screen visible
     public void gameended ()
     {
         gameover.SetActive(true);
@@ -51,7 +52,7 @@ public class GameOver : MonoBehaviour {
     {
         gamewin.SetActive(true);
     }
-
+    //restarting for boss scene
     public void restartOne()
     {
         SceneManager.LoadScene("EndScreen");

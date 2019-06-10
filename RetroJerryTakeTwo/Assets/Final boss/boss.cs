@@ -34,6 +34,7 @@ public class boss : MonoBehaviour {
         transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);    
       
 	}
+    //When boss dies screen appears
     private void FixedUpdate()
     {
         if (health <= 0)
@@ -41,7 +42,7 @@ public class boss : MonoBehaviour {
             FindObjectOfType<GameOver>().EndGameWin();
         }
     }
-
+    // boss damaging
     private void OnTriggerEnter2D(Collider2D other)
     {
         //boss dealing damage
